@@ -1,0 +1,448 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.home {
+    position: relative;
+}
+.about-us {
+    position: relative;
+}
+.more {
+    position: relative;
+}
+.contacts {
+    position: relative;
+}
+.services2 {
+    position: relative;
+}
+.locathion {
+    position: relative;
+}
+.services2::after {
+    position: absolute;
+    bottom: -6px;
+    left: 0; 
+    opacity: 0;
+    content: '';
+    display: inline-block;
+    width: 0%;
+    height: 2px;
+    background-color: #2c2b2b;
+}
+.services2:hover::after {
+    opacity: 1;
+    transition: 0.3s ease;
+    width: 100%;
+}
+.home::after {
+    position: absolute;
+    bottom: -6px;
+    left: 0; 
+    opacity: 0;
+    content: '';
+    display: inline-block;
+    width: 0%;
+    height: 2px;
+    background-color: #2c2b2b;
+    /* background-color: #424242; */
+}
+.about-us::after {
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    opacity: 0;
+    content: '';
+    display: inline-block;
+    width: 0%;
+    height: 2px;
+    background-color: #2c2b2b;
+    /* background-color: #424242; */
+}
+.more::after {
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    opacity: 0;
+    content: '';
+    display: inline-block;
+    width: 0%;
+    height: 2px;
+    background-color: #2c2b2b;
+    /* background-color: #424242; */
+}
+.contacts::after {
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    opacity: 0;
+    content: '';
+    display: inline-block;
+    width: 0%;
+    height: 2px;
+    background-color: #2c2b2b;
+    /* background-color: #424242; */
+}
+.locathion::after {
+    position: absolute;
+    bottom: -6px;
+    left: 0; 
+    opacity: 0;
+    content: '';
+    display: inline-block;
+    width: 0%;
+    height: 2px;
+    background-color: #565252;
+    /* background-color: #424242; */
+}
+.home:hover::after {
+    opacity: 1;
+    transition: 0.3s ease;
+    width: 100%;
+}
+.about-us:hover::after {
+    opacity: 1;
+    transition: 0.3s ease;
+    width: 100%;
+}
+.more:hover::after {
+    opacity: 1;
+    transition: 0.3s ease;
+    width: 100%;
+}
+.contacts:hover::after {
+    opacity: 1;
+    transition: 0.3s ease;
+    width: 100%;
+}
+.locathion:hover::after {
+    opacity: 1;
+    transition: 0.3s ease;
+    width: 100%;
+}
+header span:first-child {
+    margin-top: -11px;
+    margin-left: 44px;
+}
+header span:nth-last-child(2) {
+    margin-top: 3px;
+    margin-left: 11px;
+    font-size: 23px;
+    color: #2c2b2b;
+    /* color: #424242; */
+}
+header {
+    opacity: ;
+    /* background-color: #ffffff; */
+    position: relative;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    width: 100%;
+    height: 76px;
+}
+header .photo {
+    
+}
+header menu {
+    
+    margin-top: 0;
+    margin-left: 678px;
+    
+    list-style: none;
+    display: flex;
+}
+header menu li a {
+    margin-left: 69px;
+    line-height: 2;
+    font-size: 16px;
+    color: #2c2b2b;
+    /* color: #424242; */
+}
+header menu li:first-child {
+    color: rgb(0, 0, 0);
+    /* color: #424242; */
+}
+.servis {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 210px;
+    color: white;
+    background-color: rgb(148 149 160);
+}
+.servis h1 {
+    
+    margin-bottom: 20px;
+}
+/*camera*/
+.camera0 {
+    
+    height: 358px;
+    /* justify-content: flex-end; */
+    width: 1167px;
+    background-color: rgb(244 244 255);
+    display: flex;
+    margin-top: 88px;
+}
+.camera {
+    
+    height: 375px;
+    position: absolute;
+    margin-left: -232px;
+    margin-top: 70px;
+    display: flex;
+}
+.camera .photo {
+    width: 100%;
+    opacity: 0; 
+    margin-top: -27px;
+    margin-right: 0px;
+    position: absolute;
+    transition: 1s;
+    /* background-image: url('./cctv-camera.jpg'); */
+    background-position: center;
+}
+
+.camera1:hover .photo {
+   opacity: 1;
+   margin-left: 70px;
+  } 
+  
+
+.camera .text {
+    margin-top: -13px;
+    margin-left: 563px;
+    position: absolute; 
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.camera1 {
+    
+    flex-direction: row-reverse;
+    display: flex;
+}
+.camera .text h3 {
+    margin-bottom: 22px;
+    font-size: 23px;
+    color: rgb(5 18 117);
+}
+.camera .text p {
+    color: rgb(5 18 117);
+    width: 568px;
+    margin-left: 149px;
+    font-family: Poppins;
+    font-size: 18px;
+    
+    font-weight: normal;
+    line-height: 1.53;
+}
+/*end-camera*/
+/*smart-home*/
+.smart-home0 {
+    
+    height: 358px;
+    justify-content: flex-end;
+    /* width: 1167px; */
+    width: 1059px;
+    background-color: rgb(244 244 255);
+    display: flex;
+    margin-top: 88px;
+}
+.smart-home {
+    flex-flow: wrap;
+    height: 375px;
+    position: absolute;
+    margin-left: -301px;
+    margin-top: 70px;
+    display: flex;
+}
+.smart-home .photo {
+    order: 2;
+    opacity: 0;
+    margin-top: -27px;
+    margin-right: 0px;
+    transition: 1s;
+    position: absolute;
+    width: 459px;
+    height: 267px;
+    /* background-image: url('./Smart-Home-Tech.jpg'); */
+    background-position: center;
+}
+.smart-home1:hover .photo {
+    
+    opacity: 1;
+    margin-left: -220px;
+        
+}
+.smart-home .text {
+    order: 1;
+    margin-top: -13px;
+    margin-left: -1037px;
+    position: absolute; 
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.smart-home1 {
+    flex-flow: wrap;
+    display: flex;
+}
+.smart-home .text h3 {
+    margin-bottom: 22px;
+    font-size: 23px;
+    color: rgb(5 18 117);
+}
+.smart-home .text p {
+    color: rgb(5 18 117);
+    width: 568px;
+    margin-left: 149px;
+    font-family: Poppins;
+    font-size: 18px;
+    
+    font-weight: normal;
+    line-height: 1.53;
+}
+
+/*end-smart-home*/
+/*locks*/
+.locks0 {
+    height: 358px;
+    /* justify-content: flex-end; */
+    width: 1167px;
+    background-color: rgb(244 244 255);
+    display: flex;
+    margin-top: 88px;
+}
+.locks {
+    height: 375px;
+    position: absolute;
+    margin-left: -301px;
+    margin-top: 70px;
+    display: flex;
+}
+.locks .photo {
+    opacity: 0;
+    margin-top: -27px;
+    margin-right: 0px;
+    position: absolute;
+    transition: 1s;
+    width: 459px;
+    height: 267px;
+    background-image: url('./cctv-camera.jpg');
+    background-position: center;
+}
+.locks1:hover .photo {
+    opacity: 1;
+    margin-left: 70px;
+   }
+.locks .text {
+    margin-top: -13px;
+    margin-left: 637px;
+    position: absolute; 
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.locks1 {
+    flex-direction: row-reverse;
+    display: flex;
+}
+.locks .text h3 {
+    margin-bottom: 22px;
+    font-size: 23px;
+    color: rgb(5 18 117);
+}
+.locks .text p {
+    color: rgb(5 18 117);
+    width: 568px;
+    margin-left: 149px;
+    font-family: Poppins;
+    font-size: 18px;
+    
+    font-weight: normal;
+    line-height: 1.53;
+}
+
+/*end-locks*/
+.alarms0 {
+    
+    height: 358px;
+    justify-content: flex-end;
+    /* width: 1167px; */
+    width: 1059px;
+    background-color: rgb(244 244 255);
+    display: flex;
+    margin-top: 88px;
+}
+.alarms {
+    flex-flow: wrap;
+    height: 375px;
+    position: absolute;
+    margin-left: -301px;
+    margin-top: 70px;
+    display: flex;
+}
+.alarms .photo {
+    /* order: 2;
+    margin-top: -27px;
+    margin-left: -272px;
+    position: absolute;
+    width: 459px;
+    height: 267px;
+    /* background-image: url('./Smart-Home-Tech.jpg'); */
+    /* background-position: center; */ 
+    order: 2;
+    opacity: 0;
+    margin-top: -27px;
+    margin-right: 0px;
+    transition: 1s;
+    position: absolute;
+    width: 459px;
+    height: 267px;
+    /* background-image: url('./Smart-Home-Tech.jpg'); */
+    background-position: center;
+}
+.alarms1:hover .photo {
+    
+    opacity: 1;
+    margin-left: -180px;
+        
+}
+.alarms .text {
+    order: 1;
+    margin-top: -13px;
+    margin-left: -1037px;
+    position: absolute; 
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.alarms1 {
+    flex-flow: wrap;
+    display: flex;
+}
+.alarms .text h3 {
+    margin-bottom: 22px;
+    font-size: 23px;
+    color: rgb(5 18 117);
+}
+.alarms .text p {
+    color: rgb(5 18 117);
+    width: 568px;
+    margin-left: 149px;
+    font-family: Poppins;
+    font-size: 18px;
+    
+    font-weight: normal;
+    line-height: 1.53;
+}
